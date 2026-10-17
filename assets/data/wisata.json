@@ -1,0 +1,293 @@
+[
+  {
+    "slug": "candra-wilwatikta",
+    "nama": "Taman Candra Wilwatikta",
+    "kategori": "Budaya",
+    "kategori_slug": "budaya",
+    "ringkasan": "Panggung seni budaya bertema Majapahit dengan panggung terbuka besar, taman luas, dan area rekreasi keluarga.",
+    "deskripsi": "<p>Taman Candra Wilwatikta adalah kawasan seni dan budaya di Pandaan yang dibangun sejak 1963. Namanya berarti &ldquo;sinar Majapahit&rdquo;. Kawasan ini dikenal karena panggung terbukanya yang besar dan pertunjukan sendratari.</p><p>Selain pertunjukan, area taman kini dipakai untuk rekreasi keluarga dengan jalur berjalan, area bermain, dan tenant makanan. Beberapa wahana baru seperti kereta mini melengkapi kawasan ini.</p>",
+    "alamat": "Jl. Dr. Soetomo / Jl. Raya Tretes, Plintahan, Kec. Pandaan",
+    "desa": "Plintahan",
+    "lat": -7.6582,
+    "lng": 112.675,
+    "harga_min": 0,
+    "harga_max": 25000,
+    "harga_label": "Sekitar Rp0–25 ribu (perlu dicek)",
+    "jam_buka": {
+      "sen-jum": "08.00–17.00",
+      "sab-min": "07.00–18.00",
+      "catatan": "Jam dapat berubah saat ada acara khusus."
+    },
+    "fasilitas": [
+      "Parkir",
+      "Musala",
+      "Toilet",
+      "Kuliner",
+      "Ramah anak",
+      "Area duduk"
+    ],
+    "tips": [
+      "Datang pagi atau sore untuk menghindari terik",
+      "Siapkan air minum",
+      "Tanyakan jadwal pertunjukan sebelum berangkat"
+    ],
+    "gambar": "https://images.unsplash.com/photo-1709094979090-bc35418ab53b?auto=format&fit=crop&w=1000&h=625&q=65",
+    "galeri": [
+      {
+        "gambar": "https://images.unsplash.com/photo-1677131932181-850347bdb801?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Pendopo kayu beratap limasan, bangunan khas Jawa Timur (foto ilustrasi)",
+        "kredit": "Foto: quangpraha / Unsplash"
+      },
+      {
+        "gambar": "https://images.unsplash.com/photo-1593857389276-7c794900c90f?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Suasana pertunjukan budaya di halaman rumah kayu Jawa (foto ilustrasi)",
+        "kredit": "Foto: Ainur Iman / Unsplash"
+      },
+      {
+        "gambar": "https://images.unsplash.com/photo-1708623901412-869477ea78fb?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Hamparan sawah dan rumah warga di sekitar Pandaan (foto ilustrasi)",
+        "kredit": "Foto: Tegar Rynaldi / Unsplash"
+      }
+    ],
+    "kategori_filter": [
+      "Budaya",
+      "Keluarga",
+      "Edukasi"
+    ],
+    "jarak_tol": "Dekat (≤ 10 menit dari gerbang tol)",
+    "kontak": "Belum dirilis — konfirmasi ke pengelola",
+    "is_featured": true,
+    "terakhir_diverifikasi": "2026-10-12",
+    "status_verifikasi": "Harga & jam buka belum dikonfirmasi ulang",
+    "alt": "Ilustrasi penari berbusana tradisional di atas panggung terbuka (foto ilustrasi)",
+    "kredit": "Foto: Muhammad Adin Samudro / Unsplash"
+  },
+  {
+    "slug": "lembah-pendawa",
+    "nama": "Lembah Pendawa",
+    "kategori": "Keluarga",
+    "kategori_slug": "keluarga",
+    "ringkasan": "Kawasan taman dengan nuansa arsitektur Bali, populer untuk berfoto dan bersantai bersama keluarga.",
+    "deskripsi": "<p>Lembah Pendawa menghadirkan nuansa taman bergaya Bali di tengah Pandaan. Area ini banyak dikunjungi untuk berfoto dan berjalan santai di antara kolam dan patung bergaya tradisional.</p><p>Berdasarkan laporan pengunjung, tiket masuk berada di kisaran Rp15–20 ribu. Angka ini wajib dikonfirmasi ulang ke pengelola karena dapat berubah.</p>",
+    "alamat": "Jl. Sedap Malam, Genengan, Durensewu, Kec. Pandaan",
+    "desa": "Durensewu",
+    "lat": -7.6438,
+    "lng": 112.6905,
+    "harga_min": 15000,
+    "harga_max": 20000,
+    "harga_label": "Sekitar Rp15–20 ribu (perlu dicek)",
+    "jam_buka": {
+      "sen-min": "08.00–17.00",
+      "catatan": "Cek dulu saat hari libur nasional."
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "Kuliner",
+      "Ramah anak",
+      "Spot foto"
+    ],
+    "tips": [
+      "Datang pagi agar tidak terlalu panas",
+      "Gunakan alas kaki nyaman",
+      "Bawa uang tunai"
+    ],
+    "gambar": "https://images.unsplash.com/photo-1724063382622-67e2c59395b6?auto=format&fit=crop&w=1000&h=625&q=65",
+    "galeri": [
+      {
+        "gambar": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Kolam dan saung beratap alang-alang bernuansa tropis (foto ilustrasi)",
+        "kredit": "Foto: Kelsey Curtis / Unsplash"
+      },
+      {
+        "gambar": "https://images.unsplash.com/photo-1765134948935-b28cf6d7d8e2?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Sudut kuliner yang teduh untuk bersantai sore (foto ilustrasi)",
+        "kredit": "Foto: Yuda Laurensius / Unsplash"
+      },
+      {
+        "gambar": "https://images.unsplash.com/photo-1708623901412-869477ea78fb?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Lanskap persawahan di jalur Durensewu (foto ilustrasi)",
+        "kredit": "Foto: Tegar Rynaldi / Unsplash"
+      }
+    ],
+    "kategori_filter": [
+      "Keluarga",
+      "Alam"
+    ],
+    "jarak_tol": "Dekat (≤ 10 menit dari gerbang tol)",
+    "kontak": "Belum dirilis — konfirmasi ke pengelola",
+    "is_featured": true,
+    "terakhir_diverifikasi": "2026-10-11",
+    "status_verifikasi": "Harga tiket perlu dikonfirmasi",
+    "alt": "Ilustrasi lembah hijau dengan pegunungan di kejauhan (foto ilustrasi)",
+    "kredit": "Foto: Filipe Freitas / Unsplash"
+  },
+  {
+    "slug": "coban-binangun",
+    "nama": "Air Terjun Coban Binangun",
+    "kategori": "Alam",
+    "kategori_slug": "alam",
+    "ringkasan": "Air terjun di kawasan Binangun, Plintahan — cocok untuk yang suka wisata alam dan trekking ringan.",
+    "deskripsi": "<p>Coban Binangun merupakan air terjun di kawasan Binangun, Desa Plintahan. Lokasinya berada di area perbukitan sehingga menawarkan suasana alam yang lebih sejuk dibanding pusat kota Pandaan.</p><p>Akses menuju lokasi perlu perhatian, terutama saat musim hujan. Disarankan menggunakan kendaraan yang sesuai dan menghindari kunjungan saat hujan deras karena risiko licin dan arus air yang meningkat.</p>",
+    "alamat": "Binangun, Plintahan, Kec. Pandaan",
+    "desa": "Plintahan",
+    "lat": -7.677,
+    "lng": 112.658,
+    "harga_min": 0,
+    "harga_max": 15000,
+    "harga_label": "Belum terverifikasi",
+    "jam_buka": {
+      "sen-min": "07.00–17.00",
+      "catatan": "Hindari kunjungan saat hujan deras."
+    },
+    "fasilitas": [
+      "Parkir terbatas",
+      "Toilet sederhana"
+    ],
+    "tips": [
+      "Bawa alas kaki anti selip",
+      "Datang saat pagi",
+      "Jangan berenang saat arus deras"
+    ],
+    "gambar": "https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?auto=format&fit=crop&w=1000&h=625&q=65",
+    "galeri": [
+      {
+        "gambar": "https://images.unsplash.com/photo-1724063382622-67e2c59395b6?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Perbukitan hijau di kawasan atas Pandaan (foto ilustrasi)",
+        "kredit": "Foto: Filipe Freitas / Unsplash"
+      },
+      {
+        "gambar": "https://images.unsplash.com/photo-1708623901412-869477ea78fb?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Kampung dan lahan pertanian di lereng menuju air terjun (foto ilustrasi)",
+        "kredit": "Foto: Tegar Rynaldi / Unsplash"
+      }
+    ],
+    "kategori_filter": [
+      "Alam"
+    ],
+    "jarak_tol": "Sedang (10–20 menit dari gerbang tol)",
+    "kontak": "Belum dirilis",
+    "is_featured": false,
+    "terakhir_diverifikasi": "2026-10-08",
+    "status_verifikasi": "Data fasilitas & tarif belum dikonfirmasi",
+    "alt": "Ilustrasi air terjun berundak di tengah hutan (foto ilustrasi)",
+    "kredit": "Foto: Aleksandra Dementeva / Unsplash"
+  },
+  {
+    "slug": "taman-adn-firdaus",
+    "nama": "Taman ADN Firdaus (Petik Melon)",
+    "kategori": "Edukasi",
+    "kategori_slug": "edukasi",
+    "ringkasan": "Agrowisata petik melon untuk keluarga, dengan varietas yang beragam termasuk Golden Kinanti.",
+    "deskripsi": "<p>Taman ADN Firdaus menawarkan pengalaman petik melon langsung dari kebun. Kegiatan ini cocok untuk keluarga dengan anak yang ingin mengenal pertanian secara langsung.</p><p>Ketersediaan buah dan jam kunjungan bergantung pada musim tanam. Sebaiknya menghubungi pengelola sebelum datang agar tidak kecewa karena buah belum siap panen.</p>",
+    "alamat": "Kawasan Pandaan, Kab. Pasuruan (konfirmasi ke pengelola)",
+    "desa": "Pandaan",
+    "lat": -7.651,
+    "lng": 112.698,
+    "harga_min": 0,
+    "harga_max": 50000,
+    "harga_label": "Bervariasi (per kilogram/rombongan)",
+    "jam_buka": {
+      "sen-min": "08.00–16.00",
+      "catatan": "Bergantung musim panen."
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "Ramah anak",
+      "Pemandu"
+    ],
+    "tips": [
+      "Hubungi pengelola dulu untuk memastikan musim panen",
+      "Bawa topi",
+      "Siapkan wadah untuk buah"
+    ],
+    "gambar": "https://images.unsplash.com/photo-1724167381533-4c91f4658e89?auto=format&fit=crop&w=1000&h=625&q=65",
+    "galeri": [
+      {
+        "gambar": "https://images.unsplash.com/photo-1708623901412-869477ea78fb?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Lahan pertanian dan rumah warga sekitar kebun (foto ilustrasi)",
+        "kredit": "Foto: Tegar Rynaldi / Unsplash"
+      },
+      {
+        "gambar": "https://images.unsplash.com/photo-1724063382622-67e2c59395b6?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Pemandangan perbukitan di belakang kawasan kebun (foto ilustrasi)",
+        "kredit": "Foto: Filipe Freitas / Unsplash"
+      }
+    ],
+    "kategori_filter": [
+      "Edukasi",
+      "Keluarga"
+    ],
+    "jarak_tol": "Dekat (≤ 10 menit dari gerbang tol)",
+    "kontak": "Belum dirilis",
+    "is_featured": true,
+    "terakhir_diverifikasi": "2026-10-09",
+    "status_verifikasi": "Alamat lengkap & tarif belum dikonfirmasi",
+    "alt": "Ilustrasi tangan memetik buah melon di kebun (foto ilustrasi)",
+    "kredit": "Foto: Gabrielle Hensch / Unsplash"
+  },
+  {
+    "slug": "taman-dayu",
+    "nama": "Taman Dayu (Pandaan CBD & Waterpark)",
+    "kategori": "Keluarga",
+    "kategori_slug": "keluarga",
+    "ringkasan": "Kawasan resor dan rekreasi keluarga dengan waterpark, lapangan golf, serta area outbound dan camping.",
+    "deskripsi": "<p>Kawasan Taman Dayu dikembangkan sebagai kawasan resor dan wisata keluarga, mencakup area komersial Pandaan CBD, waterpark, lapangan golf, serta aktivitas outbound dan camping.</p><p>Karena merupakan kawasan dengan pengelola tersendiri, tiket, jam operasional, dan paket kegiatan sebaiknya dikonfirmasi langsung ke pengelola. Fasilitas di kawasan ini cenderung lebih lengkap dibanding destinasi lain di Pandaan.</p>",
+    "alamat": "Taman Dayu, Kec. Pandaan, Kab. Pasuruan",
+    "desa": "Sumber Gedang",
+    "lat": -7.681,
+    "lng": 112.664,
+    "harga_min": 0,
+    "harga_max": 100000,
+    "harga_label": "Bervariasi per area/fasilitas",
+    "jam_buka": {
+      "sen-min": "08.00–18.00",
+      "catatan": "Fasilitas berbeda punya jam berbeda."
+    },
+    "fasilitas": [
+      "Parkir luas",
+      "Toilet",
+      "Kuliner",
+      "Kolam",
+      "Golf",
+      "Area camping",
+      "Akomodasi"
+    ],
+    "tips": [
+      "Siapkan waktu 1 hari penuh bila ingin mencoba beberapa area",
+      "Konfirmasi paket ke pengelola",
+      "Bawa pakaian ganti untuk kolam"
+    ],
+    "gambar": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=1000&h=625&q=65",
+    "galeri": [
+      {
+        "gambar": "https://images.unsplash.com/photo-1603958123897-902ccdc49738?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Deretan gerai kuliner dan pertokoan di kawasan komersial (foto ilustrasi)",
+        "kredit": "Foto: Wasis Riyan / Unsplash"
+      },
+      {
+        "gambar": "https://images.unsplash.com/photo-1724063382622-67e2c59395b6?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Perbukitan Penanggungan yang mengelilingi kawasan resor (foto ilustrasi)",
+        "kredit": "Foto: Filipe Freitas / Unsplash"
+      },
+      {
+        "gambar": "https://images.unsplash.com/photo-1765134948935-b28cf6d7d8e2?auto=format&fit=crop&w=1000&h=625&q=65",
+        "alt": "Kafe dengan suasana hangat di kawasan wisata (foto ilustrasi)",
+        "kredit": "Foto: Yuda Laurensius / Unsplash"
+      }
+    ],
+    "kategori_filter": [
+      "Keluarga",
+      "Air/Kolam",
+      "Alam"
+    ],
+    "jarak_tol": "Dekat (≤ 10 menit dari gerbang tol)",
+    "kontak": "Belum dirilis — konfirmasi ke pengelola",
+    "is_featured": true,
+    "terakhir_diverifikasi": "2026-10-10",
+    "status_verifikasi": "Tarif & jam fasilitas belum dikonfirmasi",
+    "alt": "Ilustrasi kolam renang dengan pondok beratap alang-alang (foto ilustrasi)",
+    "kredit": "Foto: Kelsey Curtis / Unsplash"
+  }
+]

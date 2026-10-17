@@ -1,0 +1,47 @@
+# Sudut Pandaan — URL bersih & kompatibilitas migrasi Laravel
+# Format: dari  ke  status
+
+# Halaman utama & bawah
+/                       /index.html            200
+/tentang                /tentang.html          301
+/redaksi                /redaksi.html          301
+/pasang-iklan           /pasang-iklan.html     301
+/kontak                 /kontak.html           301
+/privasi                /privasi.html          301
+/disclaimer             /disclaimer.html       301
+/syarat-ketentuan       /syarat-ketentuan.html 301
+/peta                   /peta.html             301
+/berita                 /berita/index.html     301
+/berita/                /berita/index.html     301
+/wisata                 /wisata/index.html     301
+/wisata/                /wisata/index.html     301
+/kuliner                /kuliner/index.html    301
+/kuliner/               /kuliner/index.html    301
+/umkm                   /umkm/index.html       301
+/umkm/                  /umkm/index.html       301
+/umkm/daftar            /umkm/daftar.html      301
+/panduan                /panduan/index.html    301
+/panduan/               /panduan/index.html    301
+/link                   /link/index.html       301
+/layanan/lalu-lintas    /layanan/lalu-lintas.html    301
+/layanan/agenda         /layanan/agenda.html         301
+/layanan/loker          /layanan/loker.html          301
+/layanan/nomor-penting  /layanan/nomor-penting.html  301
+/layanan/lapor          /layanan/lapor.html          301
+
+# --- Halaman detail: URL kanonik tanpa .html (dipakai canonical + sitemap) ----
+# Ditulis eksplisit supaya tidak bergantung pada fitur "Pretty URLs" hosting.
+/berita/:slug      /berita/:slug.html      200
+/wisata/:slug      /wisata/:slug.html      200
+/kuliner/:slug     /kuliner/:slug.html     200
+/umkm/:slug        /umkm/:slug.html        200
+/panduan/:slug     /panduan/:slug.html     200
+
+# --- Pola lama /berita/detail.html?slug=… → halaman statis (301 permanen) -----
+# Netlify/Cloudflare tidak bisa membaca query string di aturan redirect, jadi
+# jembatan JS di /berita/detail.html yang menanganinya (noindex, aman).
+# Di Apache, .htaccess sudah menangani ini dengan 301 sungguhan.
+
+# Halaman detail lain yang aman dipetakan otomatis (dilayani berkas .html)
+# sudah tercakup aturan :slug di atas; sisa URL gaya Laravel (/berita/slug/edit,
+# /api/…) sengaja dibiarkan 404 agar tidak menyesatkan crawler.

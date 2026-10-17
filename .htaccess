@@ -1,0 +1,74 @@
+# Sudut Pandaan — konfigurasi Apache (shared hosting / VPS)
+# Aktifkan modul: rewrite, deflate, expires, headers
+
+Options -Indexes
+DirectoryIndex index.html
+
+# ---------- HTTPS + tanpa www (sesuaikan domain) ----------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Paksa HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+  # Pilih satu kanonik: tanpa www
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+  # URL bersih: /tentang -> /tentang.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+  # Arahkan /berita/{slug} -> /berita/{slug}.html bila berkasnya ada
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+  # Kompatibilitas pola lama ?slug= → berkas statis (301 hanya bila artikelnya ADA).
+  # Bila slug tidak dikenal, jembatan /berita/detail.html dibiarkan tampil dan
+  # menampilkan pesan "artikel tidak ditemukan" + daftar berita (jauh lebih
+  # membantu daripada 404 mentah).
+  RewriteCond %{QUERY_STRING} ^slug=([a-z0-9\-]+)$ [NC]
+  RewriteCond %{DOCUMENT_ROOT}/berita/%1.html -f
+  RewriteRule ^berita/detail\.html$ /berita/%1.html? [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /404.html
+
+# ---------- Kompresi ----------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+# ---------- Cache ----------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/json "access plus 5 minutes"
+</IfModule>
+
+# ---------- Header keamanan ----------
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=()"
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # CSP: izinkan tile OpenStreetMap untuk peta. Sesuaikan bila menambah layanan lain.
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://images.unsplash.com https://tile.openstreetmap.org https://*.tile.openstreetmap.org; font-src 'self'; connect-src 'self' https://tile.openstreetmap.org https://*.tile.openstreetmap.org; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://wa.me mailto:; object-src 'none'"
+</IfModule>
+
+# ---------- Larang akses berkas sensitif ----------
+<FilesMatch "(^\.|\.(md|py|ini|log|sh|sql|bak)$)">
+  Require all denied
+</FilesMatch>

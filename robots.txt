@@ -1,0 +1,9 @@
+# robots.txt — Sudut Pandaan
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /assets/data/
+Disallow: /berita/detail.html
+
+Sitemap: https://sudutpandaan.id/sitemap.xml

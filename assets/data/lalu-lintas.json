@@ -1,0 +1,71 @@
+{
+  "catatan_template": "[HH.MM WIB] [Lokasi: Tol Pandaan Km xx arah Malang]\nKondisi: padat merayap / lancar / tertutup sebagian\nPenyebab: …\nSumber: Satlantas / Jasa Marga / warga (belum terverifikasi)\nPembaruan terakhir: HH.MM",
+  "items": [
+    {
+      "id": 1,
+      "ruas": "Tol Pandaan arah Malang",
+      "lokasi": "Km 17, dekat gerbang tol",
+      "kondisi": "Padat merayap",
+      "penyebab": "Truk terguling (dalam penanganan)",
+      "sumber": "Petugas lapangan",
+      "waktu": "2026-10-16T09:45:00+07:00",
+      "terverifikasi": true,
+      "status": "aktif"
+    },
+    {
+      "id": 2,
+      "ruas": "Jalur Tretes",
+      "lokasi": "Simpang menuju kawasan wisata",
+      "kondisi": "Ramai lancar",
+      "penyebab": "Peningkatan volume kendaraan wisata",
+      "sumber": "Pemantauan lapangan",
+      "waktu": "2026-10-16T09:20:00+07:00",
+      "terverifikasi": true,
+      "status": "aktif"
+    },
+    {
+      "id": 3,
+      "ruas": "Bypass Pandaan",
+      "lokasi": "Dekat persimpangan utama",
+      "kondisi": "Lancar",
+      "penyebab": "-",
+      "sumber": "Pemantauan lapangan",
+      "waktu": "2026-10-16T08:40:00+07:00",
+      "terverifikasi": true,
+      "status": "selesai"
+    },
+    {
+      "id": 4,
+      "ruas": "Jalan raya dalam kota",
+      "lokasi": "Depan pasar",
+      "kondisi": "Padat",
+      "penyebab": "Aktivitas pasar pagi",
+      "sumber": "Laporan warga (terverifikasi lokasi)",
+      "waktu": "2026-10-16T07:55:00+07:00",
+      "terverifikasi": true,
+      "status": "selesai"
+    },
+    {
+      "id": 5,
+      "ruas": "Tol Pandaan arah Surabaya",
+      "lokasi": "Km 5, keluar gerbang",
+      "kondisi": "Lancar",
+      "penyebab": "-",
+      "sumber": "Pemantauan lapangan",
+      "waktu": "2026-10-15T18:30:00+07:00",
+      "terverifikasi": true,
+      "status": "selesai"
+    },
+    {
+      "id": 6,
+      "ruas": "Jalur Gempol–Pandaan",
+      "lokasi": "Simpang susun",
+      "kondisi": "Belum terverifikasi",
+      "penyebab": "Laporan warga: kendaraan berhenti di bahu jalan",
+      "sumber": "Warga (belum terverifikasi)",
+      "waktu": "2026-10-15T15:10:00+07:00",
+      "terverifikasi": false,
+      "status": "menunggu"
+    }
+  ]
+}

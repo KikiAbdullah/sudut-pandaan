@@ -1,0 +1,376 @@
+[
+  {
+    "slug": "kripik-tempe-bu-tini",
+    "nama_usaha": "Kripik Tempe Bu Tini",
+    "pemilik": "Bu Tini",
+    "kategori": "Kuliner",
+    "desa": "Petungasri",
+    "ringkasan": "Produsen kripik tempe rumahan, melayani pesanan reseller dan hampers.",
+    "cerita": "<p>Usaha ini dimulai dari dapur rumah pada 2015 dan kini melibatkan beberapa ibu rumah tangga di lingkungan sekitar untuk proses pengemasan.</p>",
+    "produk": [
+      {
+        "nama": "Kripik tempe original",
+        "harga": "Rp10.000"
+      },
+      {
+        "nama": "Kripik tempe pedas",
+        "harga": "Rp12.000"
+      },
+      {
+        "nama": "Paket hampers",
+        "harga": "Rp75.000"
+      }
+    ],
+    "alamat": "Desa Petungasri, Kec. Pandaan",
+    "lat": -7.644,
+    "lng": 112.701,
+    "whatsapp": "6281553500855",
+    "instagram": "https://www.instagram.com/sudutpandaan",
+    "marketplace": "-",
+    "jam_buka": "08.00–20.00 WIB",
+    "gambar": "assets/img/foto/umkm-tempe-800.webp",
+    "paket": "premium",
+    "is_verified": true,
+    "status": "aktif",
+    "tags": [
+      "kripik tempe",
+      "oleh-oleh",
+      "reseller"
+    ],
+    "kredit": "Foto: dokumentasi contoh Sudut Pandaan"
+  },
+  {
+    "slug": "mebel-bambu-wedoro",
+    "nama_usaha": "Mebel Bambu Wedoro",
+    "pemilik": "Pak Yusuf",
+    "kategori": "Kerajinan",
+    "desa": "Wedoro",
+    "ringkasan": "Kerajinan mebel bambu dan rotan untuk rumah, gazebo, dan kebutuhan taman.",
+    "cerita": "<p>Bekerja sejak 2004 dengan pesanan dari dalam dan luar kota. Menerima pesanan custom ukuran dan desain.</p>",
+    "produk": [
+      {
+        "nama": "Kursi bambu",
+        "harga": "Rp185.000"
+      },
+      {
+        "nama": "Meja tamu bambu",
+        "harga": "Rp450.000"
+      },
+      {
+        "nama": "Gazebo mini",
+        "harga": "Mulai Rp3.500.000"
+      }
+    ],
+    "alamat": "Desa Wedoro, Kec. Pandaan",
+    "lat": -7.633,
+    "lng": 112.688,
+    "whatsapp": "6281553500855",
+    "instagram": "-",
+    "marketplace": "-",
+    "jam_buka": "07.30–16.30 WIB",
+    "gambar": "https://images.unsplash.com/photo-1534953342533-7711c98712be?auto=format&fit=crop&w=1000&h=625&q=65",
+    "paket": "gratis",
+    "is_verified": true,
+    "status": "aktif",
+    "tags": [
+      "mebel",
+      "bambu",
+      "custom"
+    ],
+    "alt": "Ilustrasi tangan pengrajin menganyam bambu (foto ilustrasi)",
+    "kredit": "Foto: Wei-Cheng Wu / Unsplash"
+  },
+  {
+    "slug": "keripik-singkong-sumbergedang",
+    "nama_usaha": "Keripik Singkong Sumber Gedang",
+    "pemilik": "Bu Nur",
+    "kategori": "Kuliner",
+    "desa": "Sumber Gedang",
+    "ringkasan": "Aneka keripik singkong dengan bumbu tradisional, dijual kiloan untuk kebutuhan hajatan.",
+    "cerita": "<p>Produksi harian dengan kapasitas sekitar 40 kilogram singkong. Melayani pembelian kiloan maupun bungkus siap jual.</p>",
+    "produk": [
+      {
+        "nama": "Keripik singkong original",
+        "harga": "Rp15.000/250 gr"
+      },
+      {
+        "nama": "Keripik pedas manis",
+        "harga": "Rp18.000/250 gr"
+      }
+    ],
+    "alamat": "Desa Sumber Gedang, Kec. Pandaan",
+    "lat": -7.664,
+    "lng": 112.678,
+    "whatsapp": "6281553500855",
+    "instagram": "-",
+    "marketplace": "-",
+    "jam_buka": "08.00–17.00 WIB",
+    "gambar": "https://images.unsplash.com/photo-1588923930957-81c81fd6262b?auto=format&fit=crop&w=1000&h=625&q=65",
+    "paket": "gratis",
+    "is_verified": true,
+    "status": "aktif",
+    "tags": [
+      "keripik",
+      "hajatan",
+      "kiloan"
+    ],
+    "alt": "Ilustrasi aneka camilan goreng dalam wadah (foto ilustrasi)",
+    "kredit": "Foto: Gabe Pierce / Unsplash"
+  },
+  {
+    "slug": "sambal-pecel-bu-rahayu",
+    "nama_usaha": "Sambal Pecel Bu Rahayu",
+    "pemilik": "Bu Rahayu",
+    "kategori": "Kuliner",
+    "desa": "Nogosari",
+    "ringkasan": "Sambal pecel siap pakai dengan resep keluarga, cocok untuk oleh-oleh praktis.",
+    "cerita": "<p>Bermula dari sambal pecel untuk warung sendiri, kini produk dikemas dalam botol dan dikirim ke luar kota melalui ekspedisi.</p>",
+    "produk": [
+      {
+        "nama": "Sambal pecel 200 gr",
+        "harga": "Rp25.000"
+      },
+      {
+        "nama": "Paket 3 botol",
+        "harga": "Rp70.000"
+      }
+    ],
+    "alamat": "Desa Nogosari, Kec. Pandaan",
+    "lat": -7.6395,
+    "lng": 112.6925,
+    "whatsapp": "6281553500855",
+    "instagram": "-",
+    "marketplace": "-",
+    "jam_buka": "08.00–18.00 WIB",
+    "gambar": "https://images.unsplash.com/photo-1687419950105-b1cdeb6c66bc?auto=format&fit=crop&w=1000&h=625&q=65",
+    "paket": "gratis",
+    "is_verified": true,
+    "status": "aktif",
+    "tags": [
+      "sambal",
+      "oleh-oleh"
+    ],
+    "alt": "Ilustrasi semangkuk hidangan berkuah khas Nusantara (foto ilustrasi)",
+    "kredit": "Foto: RASA DIBALIK LENSA / Unsplash"
+  },
+  {
+    "slug": "batik-tulis-jogosari",
+    "nama_usaha": "Batik Tulis Jogosari",
+    "pemilik": "Bu Wati",
+    "kategori": "Fashion",
+    "desa": "Jogosari",
+    "ringkasan": "Batik tulis dan cap dengan motif lokal, menerima pesanan seragam komunitas.",
+    "cerita": "<p>Usaha batik kecil dengan beberapa perajin. Motif yang ditawarkan mengangkat unsur lokal seperti Penanggungan dan budaya Majapahit.</p>",
+    "produk": [
+      {
+        "nama": "Kain batik tulis",
+        "harga": "Mulai Rp250.000"
+      },
+      {
+        "nama": "Batik cap",
+        "harga": "Mulai Rp120.000"
+      }
+    ],
+    "alamat": "Kel. Jogosari, Kec. Pandaan",
+    "lat": -7.647,
+    "lng": 112.695,
+    "whatsapp": "6281553500855",
+    "instagram": "https://www.instagram.com/sudutpandaan",
+    "marketplace": "-",
+    "jam_buka": "08.00–16.00 WIB",
+    "gambar": "https://images.unsplash.com/photo-1543874911-320748e4c335?auto=format&fit=crop&w=800&h=800&q=65",
+    "paket": "gratis",
+    "is_verified": true,
+    "status": "aktif",
+    "tags": [
+      "batik",
+      "seragam",
+      "motif lokal"
+    ],
+    "alt": "Ilustrasi cap batik dan kain batik tradisional (foto ilustrasi)",
+    "kredit": "Foto: Agto Nugroho / Unsplash"
+  },
+  {
+    "slug": "sayur-organik-plintahan",
+    "nama_usaha": "Sayur Organik Plintahan",
+    "pemilik": "Pak Anton",
+    "kategori": "Pertanian",
+    "desa": "Plintahan",
+    "ringkasan": "Sayuran segar harian dari lahan sendiri, melayani langganan rumah tangga.",
+    "cerita": "<p>Menjual hasil kebun sendiri dengan sistem langganan mingguan. Pengiriman dilakukan pagi hari agar sayur tetap segar.</p>",
+    "produk": [
+      {
+        "nama": "Paket sayur mingguan",
+        "harga": "Rp35.000"
+      },
+      {
+        "nama": "Sayur kiloan",
+        "harga": "Mulai Rp8.000"
+      }
+    ],
+    "alamat": "Desa Plintahan, Kec. Pandaan",
+    "lat": -7.677,
+    "lng": 112.658,
+    "whatsapp": "6281553500855",
+    "instagram": "-",
+    "marketplace": "-",
+    "jam_buka": "05.00–10.00 WIB",
+    "gambar": "https://images.unsplash.com/photo-1724167381533-4c91f4658e89?auto=format&fit=crop&w=1000&h=625&q=65",
+    "paket": "gratis",
+    "is_verified": false,
+    "status": "aktif",
+    "tags": [
+      "sayur",
+      "langganan"
+    ],
+    "alt": "Ilustrasi tangan memetik buah melon di kebun (foto ilustrasi)",
+    "kredit": "Foto: Gabrielle Hensch / Unsplash"
+  },
+  {
+    "slug": "jasa-jahit-kutorejo",
+    "nama_usaha": "Jahit & Permak Kutorejo",
+    "pemilik": "Bu Endang",
+    "kategori": "Jasa",
+    "desa": "Kutorejo",
+    "ringkasan": "Jasa jahit, permak, dan pembuatan seragam dengan pengerjaan cepat.",
+    "cerita": "<p>Melayani permak pakaian, pembuatan seragam sekolah, dan pesanan komunitas. Estimasi pengerjaan 2–7 hari tergantung jenis pesanan.</p>",
+    "produk": [
+      {
+        "nama": "Permak pakaian",
+        "harga": "Mulai Rp15.000"
+      },
+      {
+        "nama": "Jahit seragam",
+        "harga": "Mulai Rp90.000"
+      }
+    ],
+    "alamat": "Kel. Kutorejo, Kec. Pandaan",
+    "lat": -7.641,
+    "lng": 112.686,
+    "whatsapp": "6281553500855",
+    "instagram": "-",
+    "marketplace": "-",
+    "jam_buka": "08.00–17.00 WIB",
+    "gambar": "https://images.unsplash.com/photo-1708234165852-89c978e5e33d?auto=format&fit=crop&w=800&h=800&q=65",
+    "paket": "gratis",
+    "is_verified": true,
+    "status": "aktif",
+    "tags": [
+      "jahit",
+      "permak",
+      "seragam"
+    ],
+    "alt": "Ilustrasi penjahit bekerja dengan mesin jahit (foto ilustrasi)",
+    "kredit": "Foto: Amirhossein Soltani / Unsplash"
+  },
+  {
+    "slug": "kopi-lokal-pandaan",
+    "nama_usaha": "Kopi Lokal Pandaan",
+    "pemilik": "Mas Dedi",
+    "kategori": "Kuliner",
+    "desa": "Pandaan",
+    "ringkasan": "Kopi robusta dan arabika lokal yang disangrai di Pandaan, tersedia biji dan bubuk.",
+    "cerita": "<p>Menyangrai kopi dalam batch kecil agar kesegaran terjaga. Melayani kedai, kantor, dan pelanggan perorangan.</p>",
+    "produk": [
+      {
+        "nama": "Biji kopi 250 gr",
+        "harga": "Rp55.000"
+      },
+      {
+        "nama": "Kopi bubuk 250 gr",
+        "harga": "Rp50.000"
+      }
+    ],
+    "alamat": "Kel. Pandaan, Kec. Pandaan",
+    "lat": -7.6527,
+    "lng": 112.6871,
+    "whatsapp": "6281553500855",
+    "instagram": "https://www.instagram.com/sudutpandaan",
+    "marketplace": "-",
+    "jam_buka": "09.00–20.00 WIB",
+    "gambar": "https://images.unsplash.com/photo-1774758959127-6ecf501d5937?auto=format&fit=crop&w=800&h=800&q=65",
+    "paket": "premium",
+    "is_verified": true,
+    "status": "aktif",
+    "tags": [
+      "kopi",
+      "roastery",
+      "grosir"
+    ],
+    "alt": "Ilustrasi barista di balik mesin kopi (foto ilustrasi)",
+    "kredit": "Foto: Palina Kharlanovich / Unsplash"
+  },
+  {
+    "slug": "kerajinan-anyaman-sebani",
+    "nama_usaha": "Anyaman Bambu Sebani",
+    "pemilik": "Kelompok Usaha Sebani",
+    "kategori": "Kerajinan",
+    "desa": "Sebani",
+    "ringkasan": "Anyaman bambu berupa besek, tampah, dan keranjang untuk kebutuhan rumah tangga.",
+    "cerita": "<p>Dikerjakan bersama oleh kelompok usaha warga. Produk dipasok ke pasar lokal dan pedagang oleh-oleh.</p>",
+    "produk": [
+      {
+        "nama": "Besek bambu",
+        "harga": "Rp6.000"
+      },
+      {
+        "nama": "Keranjang serbaguna",
+        "harga": "Rp35.000"
+      }
+    ],
+    "alamat": "Desa Sebani, Kec. Pandaan",
+    "lat": -7.63,
+    "lng": 112.672,
+    "whatsapp": "6281553500855",
+    "instagram": "-",
+    "marketplace": "-",
+    "jam_buka": "07.00–16.00 WIB",
+    "gambar": "https://images.unsplash.com/photo-1679958854536-a1bb774ef8ab?auto=format&fit=crop&w=1000&h=625&q=65",
+    "paket": "gratis",
+    "is_verified": true,
+    "status": "aktif",
+    "tags": [
+      "anyaman",
+      "besek",
+      "kelompok usaha"
+    ],
+    "alt": "Ilustrasi tumpukan keranjang anyaman bambu (foto ilustrasi)",
+    "kredit": "Foto: Wan Salahuddin Wan Ismail / Unsplash"
+  },
+  {
+    "slug": "laundry-kiloan-tawangrejo",
+    "nama_usaha": "Laundry Kiloan Tawangrejo",
+    "pemilik": "Bu Sari",
+    "kategori": "Jasa",
+    "desa": "Tawang Rejo",
+    "ringkasan": "Layanan laundry kiloan dan satuan dengan penjemputan untuk area Pandaan.",
+    "cerita": "<p>Berdiri sejak 2019 dengan layanan antar-jemput untuk wilayah Pandaan dan sekitarnya. Estimasi selesai 1–2 hari.</p>",
+    "produk": [
+      {
+        "nama": "Cuci kering lipat",
+        "harga": "Rp6.000/kg"
+      },
+      {
+        "nama": "Cuci setrika",
+        "harga": "Rp8.000/kg"
+      }
+    ],
+    "alamat": "Desa Tawang Rejo, Kec. Pandaan",
+    "lat": -7.638,
+    "lng": 112.679,
+    "whatsapp": "6281553500855",
+    "instagram": "-",
+    "marketplace": "-",
+    "jam_buka": "07.00–20.00 WIB",
+    "gambar": "https://images.unsplash.com/photo-1680345575909-99633d4b6f46?auto=format&fit=crop&w=800&h=800&q=65",
+    "paket": "gratis",
+    "is_verified": false,
+    "status": "pending",
+    "tags": [
+      "laundry",
+      "antar jemput"
+    ],
+    "alt": "Ilustrasi tumpukan kain bersih yang digantung (foto ilustrasi)",
+    "kredit": "Foto: wafieq akmal / Unsplash"
+  }
+]

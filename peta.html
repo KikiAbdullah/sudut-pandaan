@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peta Pandaan — Wisata, Kuliner, UMKM &amp; Fasilitas Umum</title>
+<meta name="description" content="Peta interaktif Pandaan: lokasi wisata, tempat makan, UMKM, fasilitas umum, dan titik rawan macet. Lengkap dengan tombol rute ke Google Maps.">
+<link rel="canonical" href="https://sudutpandaan.id/peta">
+<meta name="theme-color" content="#071C53">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sudut Pandaan">
+<meta property="og:title" content="Peta Pandaan — Wisata, Kuliner, UMKM &amp; Fasilitas Umum">
+<meta property="og:description" content="Peta interaktif Pandaan: lokasi wisata, tempat makan, UMKM, fasilitas umum, dan titik rawan macet. Lengkap dengan tombol rute ke Google Maps.">
+<meta property="og:image" content="https://sudutpandaan.id/assets/img/og-default.jpg">
+<meta property="og:locale" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/img/favicon/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css?v=101d33f1">
+<link rel="stylesheet" href="assets/vendor/bootstrap.min.css?v=7575987f">
+<link rel="stylesheet" href="assets/vendor/phosphor/phosphor.css?v=803fb19b">
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css?v=ec929f11">
+<link rel="stylesheet" href="assets/vendor/MarkerCluster.css?v=bcc4ce53">
+<link rel="stylesheet" href="assets/vendor/MarkerCluster.Default.css?v=26abe0e9">
+
+<link rel="stylesheet" href="assets/css/style.css?v=4f3e5242">
+<link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Beranda","item":"https://sudutpandaan.id/"},{"@type":"ListItem","position":2,"name":"Peta","item":"https://sudutpandaan.id/peta"}]}</script>
+</head>
+<body class="sp-has-bottomnav">
+<a class="skip-link" href="#konten">Lewati ke konten utama</a>
+
+<nav class="navbar navbar-expand-xl sp-navbar sticky-top" id="navbarUtama" aria-label="Navigasi utama">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img class="brand-logo brand-logo-gelap" src="assets/img/logo.svg" alt="" width="40" height="40">
+      <img class="brand-logo brand-logo-terang" src="assets/img/logo-terang.svg" alt="" width="40" height="40">
+      <span class="d-flex flex-column">
+        <span class="brand-nama">Sudut Pandaan</span>
+        <span class="brand-tag">Mata Komunitas Pandaan</span>
+      </span>
+      <span class="visually-hidden">— kembali ke beranda</span>
+    </a>
+
+    <div class="collapse navbar-collapse d-none d-xl-flex order-xl-2">
+      <ul class="navbar-nav align-items-xl-center ms-xl-auto"><li class="nav-item"><a class="nav-link " href="index.html">Beranda</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="berita/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita</a><ul class="dropdown-menu sp-dropdown-cols"><li><a class="dropdown-item" href="berita/index.html">Semua Berita</a></li><li><a class="dropdown-item" href="berita/index.html?kategori=peristiwa">Peristiwa</a></li><li><a class="dropdown-item" href="berita/index.html?kategori=lalu-lintas">Lalu Lintas</a></li><li><a class="dropdown-item" href="berita/index.html?kategori=pembangunan">Pembangunan</a></li><li><a class="dropdown-item" href="berita/index.html?kategori=wisata">Wisata</a></li><li><a class="dropdown-item" href="berita/index.html?kategori=kuliner">Kuliner</a></li><li><a class="dropdown-item" href="berita/index.html?kategori=umkm">UMKM</a></li><li><a class="dropdown-item" href="berita/index.html?kategori=agenda">Agenda</a></li><li><a class="dropdown-item" href="berita/index.html?kategori=kesehatan">Kesehatan</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" href="wisata/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jelajah</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="wisata/index.html">Wisata</a></li><li><a class="dropdown-item" href="kuliner/index.html">Kuliner</a></li><li><a class="dropdown-item" href="peta.html">Peta Pandaan</a></li><li><a class="dropdown-item" href="panduan/index.html">Panduan</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="umkm/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">UMKM</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="umkm/index.html">Direktori UMKM</a></li><li><a class="dropdown-item" href="umkm/daftar.html">Daftarkan Usaha</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="layanan/lalu-lintas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="layanan/lalu-lintas.html">Info Lalu Lintas</a></li><li><a class="dropdown-item" href="layanan/agenda.html">Agenda Kegiatan</a></li><li><a class="dropdown-item" href="layanan/loker.html">Lowongan Kerja</a></li><li><a class="dropdown-item" href="layanan/nomor-penting.html">Nomor Penting</a></li><li><a class="dropdown-item" href="layanan/lapor.html">Lapor / Kirim Info</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="tentang.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tentang</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="tentang.html">Tentang Kami</a></li><li><a class="dropdown-item" href="redaksi.html">Redaksi &amp; Pedoman</a></li><li><a class="dropdown-item" href="pasang-iklan.html">Pasang Iklan</a></li><li><a class="dropdown-item" href="kontak.html">Kontak</a></li></ul></li></ul>
+    </div>
+
+    <div class="d-flex align-items-center gap-2 order-xl-3 ms-auto ms-xl-3">
+      <button class="btn-ikon-nav d-none d-xl-inline-flex" type="button" data-lompat-buka aria-label="Buka lompat cepat antar halaman (pintasan garis miring)">
+        <i class="ph ph-list-numbers" aria-hidden="true"></i>
+      </button>
+      <button class="btn-ikon-nav" type="button" id="tombolCari" aria-label="Buka pencarian" aria-expanded="false" aria-controls="panelCari">
+        <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+      </button>
+      <a class="btn btn-navy btn-sm d-none d-xl-inline-flex align-items-center gap-1 nav-kirim" href="layanan/lapor.html">
+        <i class="ph ph-paper-plane-tilt" aria-hidden="true"></i><span class="nav-kirim-teks">Kirim Info</span></a>
+      <button class="navbar-toggler ms-1" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#menuMobile" aria-controls="menuMobile" aria-label="Buka menu navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Offcanvas menu mobile DIPLACEMENT di luar <nav>: bila berada di dalam
+     .navbar-expand-xl, Bootstrap menjadikannya elemen statis saat desktop.
+     Breakpoint xl (≥1200 px) dipilih karena menu desktop kita panjang:
+     di bawah 1200 px ruangnya tidak cukup dan tombol jadi terpotong. -->
+<div class="offcanvas offcanvas-end sp-offcanvas" tabindex="-1" id="menuMobile" aria-labelledby="menuMobileLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title text-white" id="menuMobileLabel">Menu</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Tutup menu"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav mb-3"><li class="nav-item"><a class="nav-link py-2" href="index.html">Beranda</a></li><li class="nav-item"><a class="nav-link py-2" href="berita/index.html">Berita</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html">— Semua Berita</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html?kategori=peristiwa">— Peristiwa</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html?kategori=lalu-lintas">— Lalu Lintas</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html?kategori=pembangunan">— Pembangunan</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html?kategori=wisata">— Wisata</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html?kategori=kuliner">— Kuliner</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html?kategori=umkm">— UMKM</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html?kategori=agenda">— Agenda</a></li><li><a class="nav-link ps-3 py-1 small" href="berita/index.html?kategori=kesehatan">— Kesehatan</a></li><li class="nav-item"><a class="nav-link py-2" href="wisata/index.html">Jelajah</a></li><li><a class="nav-link ps-3 py-1 small" href="wisata/index.html">— Wisata</a></li><li><a class="nav-link ps-3 py-1 small" href="kuliner/index.html">— Kuliner</a></li><li><a class="nav-link ps-3 py-1 small" href="peta.html">— Peta Pandaan</a></li><li><a class="nav-link ps-3 py-1 small" href="panduan/index.html">— Panduan</a></li><li class="nav-item"><a class="nav-link py-2" href="umkm/index.html">UMKM</a></li><li><a class="nav-link ps-3 py-1 small" href="umkm/index.html">— Direktori UMKM</a></li><li><a class="nav-link ps-3 py-1 small" href="umkm/daftar.html">— Daftarkan Usaha</a></li><li class="nav-item"><a class="nav-link py-2" href="layanan/lalu-lintas.html">Layanan</a></li><li><a class="nav-link ps-3 py-1 small" href="layanan/lalu-lintas.html">— Info Lalu Lintas</a></li><li><a class="nav-link ps-3 py-1 small" href="layanan/agenda.html">— Agenda Kegiatan</a></li><li><a class="nav-link ps-3 py-1 small" href="layanan/loker.html">— Lowongan Kerja</a></li><li><a class="nav-link ps-3 py-1 small" href="layanan/nomor-penting.html">— Nomor Penting</a></li><li><a class="nav-link ps-3 py-1 small" href="layanan/lapor.html">— Lapor / Kirim Info</a></li><li class="nav-item"><a class="nav-link py-2" href="tentang.html">Tentang</a></li><li><a class="nav-link ps-3 py-1 small" href="tentang.html">— Tentang Kami</a></li><li><a class="nav-link ps-3 py-1 small" href="redaksi.html">— Redaksi &amp; Pedoman</a></li><li><a class="nav-link ps-3 py-1 small" href="pasang-iklan.html">— Pasang Iklan</a></li><li><a class="nav-link ps-3 py-1 small" href="kontak.html">— Kontak</a></li></ul>
+    <button class="btn btn-gold w-100 mb-2" type="button" data-lompat-buka data-bs-dismiss="offcanvas">
+      <i class="ph ph-list-numbers me-1" aria-hidden="true"></i>Lompat cepat antar halaman</button>
+    <a class="btn btn-outline-white w-100 mb-3" href="layanan/lapor.html">
+      <i class="ph ph-paper-plane-tilt me-1" aria-hidden="true"></i>Kirim Info / Lapor</a>
+    <hr class="border-secondary">
+    <p class="small mb-2" style="color:rgba(255,255,255,.7)">Ikuti kami</p>
+    <div class="d-flex gap-2">
+      <a class="btn-ikon-nav" href="https://www.instagram.com/sudutpandaan" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="ph ph-instagram-logo" aria-hidden="true"></i></a>
+      <a class="btn-ikon-nav" href="https://www.threads.com/@sudutpandaan" target="_blank" rel="noopener noreferrer" aria-label="Threads"><i class="ph ph-threads-logo" aria-hidden="true"></i></a>
+      <a class="btn-ikon-nav" href="https://wa.me/6281553500855" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Panel pencarian (pola bilah cari acuan) -->
+<div class="sp-cari-panel" id="panelCari" role="dialog" aria-modal="true" aria-label="Pencarian situs">
+  <form action="berita/index.html" method="get" role="search">
+    <i class="ph ph-magnifying-glass fs-4 text-muted-2" aria-hidden="true"></i>
+    <label class="visually-hidden" for="inputCari">Kata kunci pencarian</label>
+    <input id="inputCari" name="q" type="search" placeholder="Temukan berita, wisata, kuliner, UMKM…" required>
+    <button class="btn btn-navy" type="submit">Cari</button>
+    <button class="btn-ikon-nav" type="button" id="tutupCari" aria-label="Tutup pencarian">
+      <i class="ph ph-x" aria-hidden="true"></i>
+    </button>
+  </form>
+</div>
+
+
+<main id="konten">
+
+
+<header class="page-header ">
+  <div class="container">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumb mb-2"><li class="breadcrumb-item"><a href="index.html">Beranda</a></li><li class="breadcrumb-item active" aria-current="page">Peta</li></ol>
+    </nav>
+    <div class="kepala-isi">
+      <span class="nomor" aria-hidden="true">06</span>
+      <div class="kepala-teks">
+        
+        <h1>Peta Pandaan</h1>
+        <p class="kepala-lead">Peta interaktif titik penting Pandaan: wisata, kuliner, UMKM, fasilitas umum, dan titik rawan kepadatan lalu lintas.</p>
+        
+      </div>
+      
+    </div>
+  </div>
+</header>
+<section class="section" data-page="peta">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div id="peta" class="sp-map" data-peta="semua" role="application" aria-label="Peta interaktif Pandaan"><span class="sp-map-hint" aria-hidden="true"><i class="ph ph-map-trifold"></i>Memuat peta…</span></div>
+        <p class="small text-muted-2 mt-2 mb-0">
+          Data peta &copy; kontributor <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>.
+          Koordinat destinasi merupakan perkiraan dan perlu verifikasi lapangan. Tile OSM publik hanya untuk lalu lintas wajar —
+          untuk kunjungan tinggi gunakan penyedia tile berlangganan atau host sendiri.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        
+    <div class="sp-map-legend">
+      <p class="fw-semibold mb-2 small">Legenda</p>
+      <div class="d-grid gap-1">
+        <span><span class="dot" style="background:#00897B"></span>Wisata</span>
+        <span><span class="dot" style="background:#8E24AA"></span>Kuliner</span>
+        <span><span class="dot" style="background:#E8B400"></span>UMKM</span>
+        <span><span class="dot" style="background:#1565C0"></span>Fasilitas umum</span>
+        <span><span class="dot" style="background:#EF6C00"></span>Titik rawan macet</span>
+      </div>
+    </div>
+        <div class="mt-4">
+          <span class="chip-label d-block mb-2"><i class="ph ph-map-trifold" aria-hidden="true"></i>Tampilkan di peta</span>
+          <div class="chip-toggle" id="filterPeta">
+            <div class="chip-switch"><input class="form-check-input" type="checkbox" value="wisata" id="cbWisata" checked><label class="form-check-label" for="cbWisata"><i class="ph ph-mountains" aria-hidden="true"></i>Wisata</label></div>
+            <div class="chip-switch"><input class="form-check-input" type="checkbox" value="kuliner" id="cbKuliner" checked><label class="form-check-label" for="cbKuliner"><i class="ph ph-bowl-food" aria-hidden="true"></i>Kuliner</label></div>
+            <div class="chip-switch"><input class="form-check-input" type="checkbox" value="umkm" id="cbUmkm" checked><label class="form-check-label" for="cbUmkm"><i class="ph ph-storefront" aria-hidden="true"></i>UMKM</label></div>
+            <div class="chip-switch"><input class="form-check-input" type="checkbox" value="fasilitas" id="cbFasilitas" checked><label class="form-check-label" for="cbFasilitas"><i class="ph ph-bank" aria-hidden="true"></i>Fasilitas umum</label></div>
+            <div class="chip-switch"><input class="form-check-input" type="checkbox" value="macet" id="cbMacet"><label class="form-check-label" for="cbMacet"><i class="ph ph-traffic-cone" aria-hidden="true"></i>Titik rawan macet</label></div>
+          </div>
+        </div>
+        <div class="mt-4">
+          <label class="chip-label d-block mb-2" for="cariTitikPeta"><i class="ph ph-magnifying-glass" aria-hidden="true"></i>Cari titik</label>
+          <div class="sp-bar-filter-cari">
+            <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+            <input class="form-control" id="cariTitikPeta" type="search" placeholder="mis. taman, kripik, tol" aria-label="Cari titik di peta">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub-judul"><span class="nomor" aria-hidden="true">01</span><h2 class="sp-section-title mt-5 mb-3">Daftar Titik</h2></div>
+    <div class="row g-3" id="daftarTitik"><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-wisata">Wisata</span></div><h3 class="h6 mb-1">Taman Candra Wilwatikta</h3><p class="small text-muted-2 mb-2">Panggung seni budaya bertema Majapahit dengan panggung terbuka besar, taman luas, dan area rekreasi keluarga.</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="wisata/candra-wilwatikta.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6582,112.675">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6582,112.675">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-wisata">Wisata</span></div><h3 class="h6 mb-1">Lembah Pendawa</h3><p class="small text-muted-2 mb-2">Kawasan taman dengan nuansa arsitektur Bali, populer untuk berfoto dan bersantai bersama keluarga.</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="wisata/lembah-pendawa.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6438,112.6905">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6438,112.6905">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-wisata">Wisata</span></div><h3 class="h6 mb-1">Air Terjun Coban Binangun</h3><p class="small text-muted-2 mb-2">Air terjun di kawasan Binangun, Plintahan — cocok untuk yang suka wisata alam dan trekking ringan.</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="wisata/coban-binangun.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.677,112.658">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.677,112.658">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-wisata">Wisata</span></div><h3 class="h6 mb-1">Taman ADN Firdaus (Petik Melon)</h3><p class="small text-muted-2 mb-2">Agrowisata petik melon untuk keluarga, dengan varietas yang beragam termasuk Golden Kinanti.</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="wisata/taman-adn-firdaus.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.651,112.698">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.651,112.698">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-wisata">Wisata</span></div><h3 class="h6 mb-1">Taman Dayu (Pandaan CBD &amp; Waterpark)</h3><p class="small text-muted-2 mb-2">Kawasan resor dan rekreasi keluarga dengan waterpark, lapangan golf, serta area outbound dan camping.</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="wisata/taman-dayu.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.681,112.664">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.681,112.664">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-kuliner">Kuliner</span></div><h3 class="h6 mb-1">Lesehan Ayam Goreng Pak Sholeh</h3><p class="small text-muted-2 mb-2">Ayam goreng kampung &amp; sambal · Rp25.000–50.000</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="kuliner/ayam-goreng-pak-sholeh.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6489,112.6901">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6489,112.6901">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-kuliner">Kuliner</span></div><h3 class="h6 mb-1">Pawon Mbok Kasti</h3><p class="small text-muted-2 mb-2">Masakan rumahan Jawa · Rp15.000–30.000</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="kuliner/pawon-mbok-kasti.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6395,112.6925">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6395,112.6925">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-kuliner">Kuliner</span></div><h3 class="h6 mb-1">Kripik Tempe QI</h3><p class="small text-muted-2 mb-2">Oleh-oleh / camilan · Mulai Rp10.000 per bungkus</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="kuliner/kripik-tempe-qi.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.644,112.701">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.644,112.701">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-kuliner">Kuliner</span></div><h3 class="h6 mb-1">Soto &amp; Rawon Warung Pagi Pandaan</h3><p class="small text-muted-2 mb-2">Soto, rawon · Rp12.000–25.000</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="kuliner/warung-soto-pandaan.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6527,112.6871">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6527,112.6871">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-kuliner">Kuliner</span></div><h3 class="h6 mb-1">Toko Oleh-Oleh Jalur Pandaan</h3><p class="small text-muted-2 mb-2">Oleh-oleh &amp; camilan · Mulai Rp10.000</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="kuliner/toko-oleh-oleh-jalur-pandaan.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.656,112.682">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.656,112.682">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-kuliner">Kuliner</span></div><h3 class="h6 mb-1">Kafe Sore Pandaan</h3><p class="small text-muted-2 mb-2">Kafe &amp; camilan · Rp20.000–45.000</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="kuliner/kafe-sore-pandaan.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.647,112.695">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.647,112.695">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Kripik Tempe Bu Tini</h3><p class="small text-muted-2 mb-2">Kuliner · Petungasri</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/kripik-tempe-bu-tini.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.644,112.701">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.644,112.701">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Mebel Bambu Wedoro</h3><p class="small text-muted-2 mb-2">Kerajinan · Wedoro</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/mebel-bambu-wedoro.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.633,112.688">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.633,112.688">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Keripik Singkong Sumber Gedang</h3><p class="small text-muted-2 mb-2">Kuliner · Sumber Gedang</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/keripik-singkong-sumbergedang.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.664,112.678">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.664,112.678">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Sambal Pecel Bu Rahayu</h3><p class="small text-muted-2 mb-2">Kuliner · Nogosari</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/sambal-pecel-bu-rahayu.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6395,112.6925">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6395,112.6925">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Batik Tulis Jogosari</h3><p class="small text-muted-2 mb-2">Fashion · Jogosari</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/batik-tulis-jogosari.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.647,112.695">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.647,112.695">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Sayur Organik Plintahan</h3><p class="small text-muted-2 mb-2">Pertanian · Plintahan</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/sayur-organik-plintahan.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.677,112.658">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.677,112.658">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Jahit &amp; Permak Kutorejo</h3><p class="small text-muted-2 mb-2">Jasa · Kutorejo</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/jasa-jahit-kutorejo.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.641,112.686">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.641,112.686">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Kopi Lokal Pandaan</h3><p class="small text-muted-2 mb-2">Kuliner · Pandaan</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/kopi-lokal-pandaan.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6527,112.6871">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6527,112.6871">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Anyaman Bambu Sebani</h3><p class="small text-muted-2 mb-2">Kerajinan · Sebani</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/kerajinan-anyaman-sebani.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.63,112.672">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.63,112.672">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-umkm">UMKM</span></div><h3 class="h6 mb-1">Laundry Kiloan Tawangrejo</h3><p class="small text-muted-2 mb-2">Jasa · Tawang Rejo</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" href="umkm/laundry-kiloan-tawangrejo.html">Detail</a><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.638,112.679">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.638,112.679">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-agenda">Fasilitas umum</span></div><h3 class="h6 mb-1">Kantor Kecamatan Pandaan</h3><p class="small text-muted-2 mb-2">Koordinat perkiraan</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6473,112.6953">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6473,112.6953">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-agenda">Fasilitas umum</span></div><h3 class="h6 mb-1">Alun-alun / Lapangan Pandaan</h3><p class="small text-muted-2 mb-2">Koordinat perkiraan</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6495,112.6925">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6495,112.6925">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-agenda">Fasilitas umum</span></div><h3 class="h6 mb-1">Puskesmas Pandaan</h3><p class="small text-muted-2 mb-2">Koordinat perkiraan</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6497,112.6896">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6497,112.6896">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-agenda">Fasilitas umum</span></div><h3 class="h6 mb-1">Terminal Tipe A Pandaan</h3><p class="small text-muted-2 mb-2">Koordinat perkiraan</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6449,112.6982">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6449,112.6982">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-agenda">Fasilitas umum</span></div><h3 class="h6 mb-1">Pasar Pandaan</h3><p class="small text-muted-2 mb-2">Koordinat perkiraan</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6512,112.6905">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6512,112.6905">Lihat di peta</button></div></div></div><div class="col-12 col-md-6"><div class="info-box h-100 d-flex flex-column"><div class="d-flex gap-2 align-items-center mb-1"><span class="badge-cat cat-agenda">Fasilitas umum</span></div><h3 class="h6 mb-1">Gerbang Tol Pandaan</h3><p class="small text-muted-2 mb-2">Koordinat perkiraan</p><div class="d-flex gap-2 mt-auto position-relative" style="z-index:2"><a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=-7.6341,112.6795">Rute</a><button class="btn btn-sm btn-outline-primary" type="button" data-fokus-peta="-7.6341,112.6795">Lihat di peta</button></div></div></div></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="sp-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="d-inline-flex align-items-center gap-2 text-decoration-none mb-3" href="index.html">
+          <img src="assets/img/logo.svg" alt="" width="40" height="40">
+          <span class="h5 text-white mb-0" style="font-family:var(--sp-font-display)">Sudut Pandaan</span>
+        </a>
+        <p class="small">Portal informasi hyperlocal Pandaan, Kabupaten Pasuruan: berita terkini, info lalu lintas, wisata, kuliner, UMKM, dan layanan warga.</p>
+        <p class="small mb-3"><i class="ph ph-map-pin me-1" aria-hidden="true"></i>Pandaan, Kabupaten Pasuruan, Jawa Timur 67156<br>
+          <i class="ph ph-envelope-simple me-1" aria-hidden="true"></i>redaksi@sudutpandaan.id<br>
+          <i class="ph ph-clock me-1" aria-hidden="true"></i>Jam respons redaksi: Senin–Sabtu, 08.00–21.00 WIB</p>
+        <div class="footer-sosmed d-flex flex-wrap">
+          <a href="https://www.instagram.com/sudutpandaan" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="ph ph-instagram-logo" aria-hidden="true"></i></a>
+          <a href="https://www.threads.com/@sudutpandaan" target="_blank" rel="noopener noreferrer" aria-label="Threads"><i class="ph ph-threads-logo" aria-hidden="true"></i></a>
+          <a href="https://wa.me/6281553500855" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/sudutpandaan" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+          <a href="https://www.tiktok.com/@sudutpandaan" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="ph ph-tiktok-logo" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h2 class="footer-judul">Jelajahi</h2>
+        <ul class="small">
+          <li><a href="berita/index.html">Berita</a></li>
+          <li><a href="wisata/index.html">Wisata</a></li>
+          <li><a href="kuliner/index.html">Kuliner</a></li>
+          <li><a href="umkm/index.html">UMKM</a></li>
+          <li><a href="peta.html">Peta Pandaan</a></li>
+          <li><a href="panduan/index.html">Panduan</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h2 class="footer-judul">Layanan Warga</h2>
+        <ul class="small">
+          <li><a href="layanan/lalu-lintas.html">Info Lalu Lintas</a></li>
+          <li><a href="layanan/agenda.html">Agenda Kegiatan</a></li>
+          <li><a href="layanan/loker.html">Lowongan Kerja</a></li>
+          <li><a href="layanan/nomor-penting.html">Nomor Penting</a></li>
+          <li><a href="layanan/lapor.html">Lapor / Kirim Info</a></li>
+          <li><a href="link/index.html">Link Bio</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="footer-judul">Kategori Berita</h2>
+        <ul class="small"><li><a href="berita/index.html?kategori=peristiwa">Peristiwa</a></li><li><a href="berita/index.html?kategori=lalu-lintas">Lalu Lintas</a></li><li><a href="berita/index.html?kategori=pembangunan">Pembangunan</a></li><li><a href="berita/index.html?kategori=wisata">Wisata</a></li><li><a href="berita/index.html?kategori=kuliner">Kuliner</a></li><li><a href="berita/index.html?kategori=umkm">UMKM</a></li></ul>
+        <h2 class="footer-judul mt-4">Tentang</h2>
+        <ul class="small">
+          <li><a href="tentang.html">Tentang Kami</a></li>
+          <li><a href="redaksi.html">Redaksi &amp; Pedoman</a></li>
+          <li><a href="pasang-iklan.html">Pasang Iklan</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-secondary mt-4 opacity-25">
+    <div class="legal small d-flex flex-wrap gap-3 justify-content-between pb-4">
+      <span>© <span id="tahun" data-tahun>2026</span> Sudut Pandaan. Seluruh hak cipta dilindungi.</span>
+      <span class="d-flex flex-wrap gap-3">
+        <a href="privasi.html">Kebijakan Privasi</a>
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="syarat-ketentuan.html">Syarat &amp; Ketentuan</a>
+        <a href="redaksi.html">Pedoman Media Siber</a>
+      </span>
+    </div>
+  </div>
+</footer>
+<nav class="sp-bottomnav d-lg-none" aria-label="Navigasi bawah">
+<ul><li><a class="" href="index.html"><i class="ph ph-house" aria-hidden="true"></i><span>Beranda</span></a></li><li><a class="" href="berita/index.html"><i class="ph ph-newspaper" aria-hidden="true"></i><span>Berita</span></a></li><li><a class="active" href="wisata/index.html"><i class="ph ph-map-trifold" aria-hidden="true"></i><span>Jelajah</span></a></li><li><a class="" href="layanan/lalu-lintas.html"><i class="ph ph-headset" aria-hidden="true"></i><span>Layanan</span></a></li><li><button type="button" class="border-0 bg-transparent w-100" data-bs-toggle="offcanvas" data-bs-target="#menuMobile" aria-label="Buka menu lengkap"><span class="d-flex flex-column align-items-center justify-content-center" style="min-height:56px;gap:2px"><i class="ph ph-list" aria-hidden="true" style="font-size:1.3rem"></i><span style="font-size:.68rem;font-weight:600">Menu</span></button></li></ul>
+</nav>
+<button id="backToTop" type="button" aria-label="Kembali ke atas halaman"><i class="ph ph-arrow-up" aria-hidden="true"></i></button>
+<div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3">
+  <div id="spToast" class="toast sp-toast" role="status" aria-live="polite" aria-atomic="true">
+    <div class="toast-body"><i class="ph-fill ph-check-circle" aria-hidden="true"></i><span id="spToastText"></span></div>
+  </div>
+</div>
+<script src="assets/vendor/bootstrap.bundle.min.js?v=69f68885"></script>
+<script src="assets/vendor/leaflet/leaflet.js?v=5a640ff8"></script>
+<script src="assets/vendor/leaflet.markercluster.js?v=19805c0d"></script>
+<script src="assets/js/map.js?v=d0472de2"></script>
+<script src="assets/js/data-embed.js?v=c4699892"></script>
+<script src="assets/js/config.js?v=366ef955"></script>
+<script src="assets/js/components.js?v=f1c47a74"></script>
+<script src="assets/js/pages.js?v=c3e252df"></script>
+<script src="assets/js/share.js?v=7bdf949f"></script>
+<script src="assets/js/nav.js?v=acc1f643"></script>
+<script src="assets/js/majalah.js?v=3065aa4d"></script>
+<script src="assets/js/main.js?v=06b945fc"></script>
+</body>
+</html>

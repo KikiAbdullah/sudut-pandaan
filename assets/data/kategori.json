@@ -1,0 +1,42 @@
+[
+  {
+    "nama": "Peristiwa",
+    "slug": "peristiwa",
+    "warna": "#C62828"
+  },
+  {
+    "nama": "Lalu Lintas",
+    "slug": "lalu-lintas",
+    "warna": "#EF6C00"
+  },
+  {
+    "nama": "Pembangunan",
+    "slug": "pembangunan",
+    "warna": "#455A64"
+  },
+  {
+    "nama": "Wisata",
+    "slug": "wisata",
+    "warna": "#00897B"
+  },
+  {
+    "nama": "Kuliner",
+    "slug": "kuliner",
+    "warna": "#8E24AA"
+  },
+  {
+    "nama": "UMKM",
+    "slug": "umkm",
+    "warna": "#E8B400"
+  },
+  {
+    "nama": "Agenda",
+    "slug": "agenda",
+    "warna": "#1565C0"
+  },
+  {
+    "nama": "Kesehatan",
+    "slug": "kesehatan",
+    "warna": "#2E7D32"
+  }
+]

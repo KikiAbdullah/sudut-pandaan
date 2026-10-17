@@ -1,0 +1,22 @@
+{
+  "nama": "Sudut Pandaan",
+  "tagline": "Mata Komunitas Pandaan",
+  "deskripsi": "Portal informasi hyperlocal Pandaan, Kabupaten Pasuruan: berita terkini, info lalu lintas, wisata, kuliner, UMKM, dan layanan warga.",
+  "base_url": "https://sudutpandaan.id",
+  "email": "redaksi@sudutpandaan.id",
+  "wa_admin": "6281553500855",
+  "wa_admin_tampil": "0815-5350-0855",
+  "instagram": "https://www.instagram.com/sudutpandaan",
+  "threads": "https://www.threads.com/@sudutpandaan",
+  "facebook": "https://www.facebook.com/sudutpandaan",
+  "tiktok": "https://www.tiktok.com/@sudutpandaan",
+  "youtube": "https://www.youtube.com/@sudutpandaan",
+  "alamat": "Pandaan, Kabupaten Pasuruan, Jawa Timur 67156",
+  "jam_respons": "Senin–Sabtu, 08.00–21.00 WIB",
+  "didirikan": "2023",
+  "peta": {
+    "lat": -7.6527,
+    "lng": 112.6871,
+    "zoom": 13
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "catatan": "Lowongan pada halaman ini adalah <strong>contoh/placeholder</strong> untuk keperluan tampilan. Waspadai modus penipuan kerja: jangan pernah membayar biaya pendaftaran, pelatihan, atau jaminan kerja. Sudut Pandaan tidak memungut biaya apa pun dari pencari kerja. Kirim informasi lowongan resmi ke kanal Lapor/Kirim Info.",
+  "items": [
+    {
+      "slug": "operator-produksi-kawasan-industri",
+      "posisi": "Operator Produksi",
+      "perusahaan": "Perusahaan manufaktur di kawasan Pandaan (contoh)",
+      "lokasi": "Kawasan industri Pandaan",
+      "jenis": "Kontrak",
+      "deskripsi": "Bertanggung jawab pada proses produksi harian sesuai standar keselamatan kerja.",
+      "kualifikasi": [
+        "Lulusan SMA/SMK sederajat",
+        "Usia maksimal 27 tahun",
+        "Sehat jasmani",
+        "Bersedia kerja sif"
+      ],
+      "gaji": "Sesuai upah minimum + tunjangan",
+      "cara_melamar": "Kirim lamaran melalui email/WhatsApp HRD (kanal resmi perusahaan).",
+      "batas_waktu": "2026-11-05",
+      "tanggal_posting": "2026-10-10",
+      "status": "aktif",
+      "gambar": "https://images.unsplash.com/photo-1534953342533-7711c98712be?auto=format&fit=crop&w=1000&h=625&q=65"
+    },
+    {
+      "slug": "admin-toko-retail",
+      "posisi": "Admin Toko / Kasir",
+      "perusahaan": "Toko retail di Pandaan (contoh)",
+      "lokasi": "Pandaan kota",
+      "jenis": "Penuh waktu",
+      "deskripsi": "Mengelola administrasi harian, pencatatan stok, dan melayani pelanggan di kasir.",
+      "kualifikasi": [
+        "SMA/SMK",
+        "Teliti dan jujur",
+        "Bisa operasikan aplikasi kasir",
+        "Diutamakan domisili Pandaan"
+      ],
+      "gaji": "Rp2.100.000–2.500.000",
+      "cara_melamar": "Hubungi kanal resmi pemberi kerja; jangan mengirim dokumen pribadi ke pihak tak dikenal.",
+      "batas_waktu": "2026-10-28",
+      "tanggal_posting": "2026-10-09",
+      "status": "aktif",
+      "gambar": "https://images.unsplash.com/photo-1603958123897-902ccdc49738?auto=format&fit=crop&w=1000&h=625&q=65"
+    },
+    {
+      "slug": "barista-kafe-pandaan",
+      "posisi": "Barista (Part-time)",
+      "perusahaan": "Kafe di kawasan Pandaan (contoh)",
+      "lokasi": "Pandaan",
+      "jenis": "Paruh waktu",
+      "deskripsi": "Menyiapkan minuman sesuai resep, menjaga kebersihan area bar, dan melayani pelanggan.",
+      "kualifikasi": [
+        "Diutamakan pengalaman 6 bulan",
+        "Ramah dan cekatan",
+        "Bersedia shift sore"
+      ],
+      "gaji": "Rp1.500.000–2.000.000",
+      "cara_melamar": "Kirim lamaran ke kafe tujuan dengan CV sederhana.",
+      "batas_waktu": "2026-10-30",
+      "tanggal_posting": "2026-10-08",
+      "status": "aktif",
+      "gambar": "https://images.unsplash.com/photo-1708623901412-869477ea78fb?auto=format&fit=crop&w=1000&h=625&q=65"
+    },
+    {
+      "slug": "guru-les-privat-sd",
+      "posisi": "Pengajar Les Privat SD",
+      "perusahaan": "Lembaga bimbingan belajar lokal (contoh)",
+      "lokasi": "Pandaan & sekitarnya",
+      "jenis": "Paruh waktu / Freelance",
+      "deskripsi": "Mengajar mata pelajaran SD untuk kelas 1–6, baik perorangan maupun kelompok kecil.",
+      "kualifikasi": [
+        "Mahasiswa/Diploma/S1 semua jurusan",
+        "Komunikatif",
+        "Bersedia mengajar sore"
+      ],
+      "gaji": "Rp75.000/sesi",
+      "cara_melamar": "Kirim CV dan jadwal ketersediaan ke kontak lembaga.",
+      "batas_waktu": "2026-11-10",
+      "tanggal_posting": "2026-10-07",
+      "status": "aktif",
+      "gambar": "https://images.unsplash.com/photo-1709094979090-bc35418ab53b?auto=format&fit=crop&w=1000&h=625&q=65",
+      "alt": "Ilustrasi penari berbusana tradisional di atas panggung terbuka (foto ilustrasi)"
+    },
+    {
+      "slug": "kru-kuliner-catering",
+      "posisi": "Kru Dapur Catering",
+      "perusahaan": "Catering rumahan Pandaan (contoh)",
+      "lokasi": "Desa Nogosari",
+      "jenis": "Harian / Harian lepas",
+      "deskripsi": "Membantu persiapan bahan, memasak, dan pengemasan pesanan catering.",
+      "kualifikasi": [
+        "Tanpa pengalaman ok",
+        "Bersedia bekerja pagi",
+        "Diutamakan berdomisili dekat"
+      ],
+      "gaji": "Rp100.000/hari",
+      "cara_melamar": "Datang langsung ke lokasi dapur atau hubungi kanal resmi pemberi kerja.",
+      "batas_waktu": "2026-10-25",
+      "tanggal_posting": "2026-10-06",
+      "status": "aktif",
+      "gambar": "https://images.unsplash.com/photo-1687419950105-b1cdeb6c66bc?auto=format&fit=crop&w=1000&h=625&q=65"
+    },
+    {
+      "slug": "kurir-ekspedisi-lokal",
+      "posisi": "Kurir Ekspedisi Lokal",
+      "perusahaan": "Jasa ekspedisi (contoh)",
+      "lokasi": "Pandaan & sekitarnya",
+      "jenis": "Kontrak",
+      "deskripsi": "Mengantar paket di area Pandaan dan sekitarnya menggunakan sepeda motor.",
+      "kualifikasi": [
+        "Memiliki SIM C dan kendaraan",
+        "Teliti",
+        "Menguasai jalan area Pandaan–Prigen"
+      ],
+      "gaji": "Sesuai jumlah pengantaran + insentif",
+      "cara_melamar": "Kirim data singkat dan dokumen (SIM, KTP) ke kanal resmi perusahaan.",
+      "batas_waktu": "2026-11-01",
+      "tanggal_posting": "2026-10-05",
+      "status": "expired_contoh",
+      "gambar": "https://images.unsplash.com/photo-1704287449151-27eda48a1f24?auto=format&fit=crop&w=1000&h=625&q=65"
+    }
+  ]
+}

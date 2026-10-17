@@ -1,0 +1,75 @@
+{
+  "catatan": "Beberapa entri masih kosong dan <strong>sengaja tidak diisi</strong> untuk menghindari penyebaran nomor yang salah. Tim redaksi harus melengkapi dan memverifikasi nomor resmi dari kanal instansi sebelum halaman ini dipromosikan ke publik.",
+  "items": [
+    {
+      "instansi": "Nomor Darurat Nasional",
+      "nomor": "112",
+      "kategori": "Darurat",
+      "keterangan": "Layanan darurat terpadu.",
+      "verifikasi": "perlu-dicek"
+    },
+    {
+      "instansi": "Polsek Pandaan",
+      "nomor": "—",
+      "kategori": "Keamanan",
+      "keterangan": "Nomor resmi belum dimasukkan. Cek kanal resmi Polres Pasuruan.",
+      "verifikasi": "kosong"
+    },
+    {
+      "instansi": "Polres Pasuruan",
+      "nomor": "—",
+      "kategori": "Keamanan",
+      "keterangan": "Nomor resmi belum dimasukkan.",
+      "verifikasi": "kosong"
+    },
+    {
+      "instansi": "Pemadam Kebakaran (Damkar) Kab. Pasuruan",
+      "nomor": "—",
+      "kategori": "Darurat",
+      "keterangan": "Nomor resmi belum dimasukkan.",
+      "verifikasi": "kosong"
+    },
+    {
+      "instansi": "Ambulans / Puskesmas Pandaan",
+      "nomor": "—",
+      "kategori": "Kesehatan",
+      "keterangan": "Nomor resmi belum dimasukkan.",
+      "verifikasi": "kosong"
+    },
+    {
+      "instansi": "PLN (Layanan Gangguan)",
+      "nomor": "123",
+      "kategori": "Utilitas",
+      "keterangan": "Layanan pelanggan PLN.",
+      "verifikasi": "perlu-dicek"
+    },
+    {
+      "instansi": "BPBD Kabupaten Pasuruan",
+      "nomor": "—",
+      "kategori": "Darurat",
+      "keterangan": "Nomor resmi belum dimasukkan.",
+      "verifikasi": "kosong"
+    },
+    {
+      "instansi": "Dishub Kabupaten Pasuruan",
+      "nomor": "—",
+      "kategori": "Lalu lintas",
+      "keterangan": "Nomor resmi belum dimasukkan.",
+      "verifikasi": "kosong"
+    },
+    {
+      "instansi": "Call Center Jalan Tol (Jasa Marga)",
+      "nomor": "—",
+      "kategori": "Lalu lintas",
+      "keterangan": "Nomor resmi belum dimasukkan.",
+      "verifikasi": "kosong"
+    },
+    {
+      "instansi": "PDAM Kabupaten Pasuruan",
+      "nomor": "—",
+      "kategori": "Utilitas",
+      "keterangan": "Nomor resmi belum dimasukkan.",
+      "verifikasi": "kosong"
+    }
+  ]
+}

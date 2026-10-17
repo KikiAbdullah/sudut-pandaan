@@ -1,0 +1,25 @@
+{
+  "name": "Sudut Pandaan — Mata Komunitas Pandaan",
+  "short_name": "SudutPandaan",
+  "description": "Portal informasi hyperlocal Pandaan, Kabupaten Pasuruan: berita terkini, info lalu lintas, wisata, kuliner, UMKM, dan layanan warga.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F6F1E7",
+  "theme_color": "#071C53",
+  "lang": "id-ID",
+  "icons": [
+    {
+      "src": "/assets/img/favicon/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/favicon/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

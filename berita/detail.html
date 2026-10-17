@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mengalihkan… — Sudut Pandaan</title>
+<meta name="description" content="Halaman pengalihan ke artikel Sudut Pandaan. Bila tautan tidak berpindah otomatis, gunakan daftar berita terbaru di bawah.">
+<meta name="robots" content="noindex, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sudut Pandaan">
+<meta property="og:title" content="Mengalihkan… — Sudut Pandaan">
+<meta property="og:description" content="Halaman pengalihan ke artikel Sudut Pandaan.">
+<meta property="og:image" content="https://sudutpandaan.id/assets/img/og-default.jpg">
+<link rel="icon" href="../assets/img/favicon/favicon.ico" sizes="any">
+<link rel="canonical" href="https://sudutpandaan.id/berita/">
+<link rel="stylesheet" href="../assets/css/fonts.css?v=101d33f1">
+<link rel="stylesheet" href="../assets/css/style.css?v=4f3e5242">
+<script>
+  // Daftar slug valid dari build terakhir (nihil permintaan jaringan).
+  var SP_SLUG = ["truk-terguling-tol-pandaan-arah-malang", "jalur-tretes-pandaan-padat-jelang-libur-panjang", "genangan-bypass-pandaan-usai-hujan-deras", "revitalisasi-terminal-pandaan-kajian-rtrw", "candra-wilwatikta-wahana-keluarga-kondisi-terbaru", "penataan-pkl-pasar-pandaan-bertahap", "jadwal-posyandu-pandaan-november-2026", "senam-pagi-alun-alun-pandaan-tiap-jumat", "kripik-tempe-pandaan-tembus-pasar-malaysia", "warga-karangjati-soroti-normalisasi-drainase", "rute-alternatif-hindari-kepadatan-gerbang-tol-pandaan", "festival-budaya-candra-wilwatikta-november", "bmkg-pasuruan-hujan-sore-sepekan"];
+</script>
+</head>
+<body class="sp-halaman-jembatan">
+<main class="container py-5" style="max-width:640px">
+  <p class="text-muted-2 small mb-1">Sudut Pandaan</p>
+  <div id="jembatan" class="card border-0 shadow-sm rounded-card p-4">
+    <p class="mb-2"><i class="ph ph-clock-counter-clockwise me-1" aria-hidden="true"></i>Mengalihkan ke artikel…</p>
+    <p class="small text-muted-2 mb-0">Bila tidak berpindah otomatis, pilih dari daftar di bawah.</p>
+  </div>
+
+  <h1 class="h5 mt-4" id="judulJembatan">Daftar berita terbaru</h1>
+  <ul class="jembatan-daftar">
+    <li><a href="truk-terguling-tol-pandaan-arah-malang.html">Truk Terguling di Tol Pandaan Arah Malang, Arus Padat Merayap</a></li><li><a href="jalur-tretes-pandaan-padat-jelang-libur-panjang.html">Jelang Libur Panjang, Jalur Tretes Pandaan Ramai Sepanjang Sore</a></li><li><a href="genangan-bypass-pandaan-usai-hujan-deras.html">Hujan Deras, Genangan Muncul di Dua Titik Bypass Pandaan</a></li><li><a href="revitalisasi-terminal-pandaan-kajian-rtrw.html">Revitalisasi Terminal Pandaan Masuk Kajian RTRW, Diarahkan Jadi Terminal Transit Pariwisata</a></li><li><a href="candra-wilwatikta-wahana-keluarga-kondisi-terbaru.html">Candra Wilwatikta Tambah Wahana Keluarga, Begini Kondisi Terbarunya</a></li><li><a href="penataan-pkl-pasar-pandaan-bertahap.html">Penataan PKL di Kawasan Pasar Pandaan Dilakukan Bertahap</a></li>
+  </ul>
+  <p class="small"><a href="index.html">Lihat semua berita Pandaan</a> · <a href="index.html">Beranda</a></p>
+</main>
+<script>
+  (function () {
+    var p = new URLSearchParams(location.search);
+    var bersih = (p.get('slug') || '').toLowerCase().replace(/[^a-z0-9-]/g, '');
+    var kotak = document.getElementById('jembatan');
+    var judul = document.getElementById('judulJembatan');
+    if (!bersih) { location.replace('index.html'); return; }
+    if (SP_SLUG.indexOf(bersih) >= 0) { location.replace(bersih + '.html'); return; }
+    // Slug tidak dikenal: jangan diam-diam 404 — beri penjelasan dan jalan keluar.
+    kotak.innerHTML = '<p class="mb-2"><i class="ph ph-warning-circle me-1 text-danger" aria-hidden="true"></i>' +
+      '<strong>Artikel tidak ditemukan</strong></p>' +
+      '<p class="small text-muted-2 mb-0">Tautan <code>?slug=' + bersih.replace(/[<>]/g, '') +
+      '</code> tidak ada di arsip kami. Artikel mungkin sudah diganti judulnya atau dipindahkan.</p>';
+    kotak.classList.add('border-danger');
+    judul.textContent = 'Coba salah satu berita berikut';
+    document.title = 'Artikel tidak ditemukan — Sudut Pandaan';
+  })();
+</script>
+</body></html>

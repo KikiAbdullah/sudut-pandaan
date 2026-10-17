@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Logo Sudut Pandaan">
+  <title>Logo Sudut Pandaan (varian latar gelap)</title>
+  <!-- Dipakai di atas hero bergambar (navbar transparan). Latar dibuat putih
+       penuh supaya kotak logo tetap terbaca di atas foto yang tidak seragam. -->
+  <rect x="0" y="0" width="64" height="64" rx="15" fill="#FFFFFF"/>
+  <path d="M4 46 L22 26 L32 38 L42 24 L60 46 Z" fill="#2095AE" opacity=".45"/>
+  <path d="M12 30 A20 20 0 0 1 52 30" fill="none" stroke="#C79A00" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="50" cy="31" r="3.4" fill="#C79A00"/>
+  <text x="32" y="45" text-anchor="middle" font-family="Manrope, system-ui, sans-serif" font-size="21" font-weight="700" fill="#071C53" letter-spacing="0.5">SP</text>
+  <rect x="18" y="50" width="28" height="3" rx="1.5" fill="#C79A00" opacity=".9"/>
+</svg>

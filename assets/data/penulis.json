@@ -1,0 +1,26 @@
+[
+  {
+    "id": "redaksi",
+    "nama": "Redaksi Sudut Pandaan",
+    "peran": "Redaksi",
+    "bio": "Tim redaksi Sudut Pandaan. Menyusun laporan berdasarkan verifikasi dua sumber dan keterangan resmi."
+  },
+  {
+    "id": "lalin",
+    "nama": "Desk Lalu Lintas",
+    "peran": "Desk Lalu Lintas",
+    "bio": "Desk khusus pemantauan arus lalu lintas jalur Surabaya–Malang, termasuk ruas tol Pandaan dan jalur Tretes."
+  },
+  {
+    "id": "jelajah",
+    "nama": "Desk Jelajah",
+    "peran": "Desk Wisata & Kuliner",
+    "bio": "Tim yang menulis feature wisata, kuliner, dan panduan berkunjung ke Pandaan dan sekitarnya."
+  },
+  {
+    "id": "umkm",
+    "nama": "Desk UMKM",
+    "peran": "Desk UMKM & Komunitas",
+    "bio": "Mendampingi pelaku usaha lokal menuliskan cerita usahanya dan memverifikasi data profil."
+  }
+]

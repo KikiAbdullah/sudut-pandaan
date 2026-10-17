@@ -1,0 +1,50 @@
+/* ==========================================================================
+   FONT SELF-HOST — model indonesia.travel: Playfair Display (judul) + Manrope (badan)
+   Keduanya variable font (satu berkas per bobot 200–800 / 400–900),
+   disubset oleh `python3 tools/subset_fonts.py` ke rentang karakter yang dipakai
+   situs berbahasa Indonesia, lalu `unicode-range` di bawah diambil apa adanya dari
+   CSS Google Fonts agar peramban tahu isi berkas — kalau tidak, teks di luar
+   subset akan tampak "hilang" sebelum font sistem dipakai.
+   Tidak ada permintaan ke fonts.googleapis.com: semua berkas lokal.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("../fonts/manrope-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../fonts/playfair-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* --------------------------------------------------------------------------
+   Metrik fallback (size-adjust + override) supaya pergantian webfont tidak
+   menggeser tata letak — ini yang menjaga CLS tetap ~0.
+   Angka dihitung dari metrik font asli vs font sistem:
+     Manrope  x-height 1080/2000 = 0,540  vs Arial 1062/2048 = 0,5186
+     Playfair x-height  514/1000 = 0,514  vs Georgia 1062/2048 = 0,5186
+   -------------------------------------------------------------------------- */
+@font-face {
+  font-family: "Manrope Fallback";
+  src: local("Arial"), local("Helvetica Neue"), local("Liberation Sans");
+  size-adjust: 104.13%;
+  ascent-override: 102.37%;
+  descent-override: 28.81%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Playfair Fallback";
+  src: local("Georgia"), local("Times New Roman"), local("Liberation Serif");
+  size-adjust: 99.13%;
+  ascent-override: 109.15%;
+  descent-override: 25.32%;
+  line-gap-override: 0%;
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "platform": "Instagram",
+    "ikon": "instagram",
+    "url": "https://www.instagram.com/sudutpandaan",
+    "caption": "Rangkuman malam ini: kondisi jalur tol Pandaan dan agenda akhir pekan.",
+    "gambar": "https://images.unsplash.com/photo-1704287449151-27eda48a1f24?auto=format&fit=crop&w=1000&h=625&q=65",
+    "tanggal": "2026-10-15T20:00:00+07:00",
+    "jenis": "Karusel",
+    "alt": "Ilustrasi ruas jalan raya dipotret dari atas pada malam hari (foto ilustrasi)",
+    "kredit": "Foto: Fadhila Nurhakim / Unsplash"
+  },
+  {
+    "platform": "Threads",
+    "ikon": "threads",
+    "url": "https://www.threads.com/@sudutpandaan",
+    "caption": "Update cepat: lajur kiri tol Pandaan sudah dibuka, arus berangsur lancar.",
+    "gambar": "https://images.unsplash.com/photo-1708623901412-869477ea78fb?auto=format&fit=crop&w=1000&h=625&q=65",
+    "tanggal": "2026-10-16T09:50:00+07:00",
+    "jenis": "Postingan",
+    "alt": "Ilustrasi hamparan sawah dan rumah warga di kawasan pedesaan (foto ilustrasi)",
+    "kredit": "Foto: Tegar Rynaldi / Unsplash"
+  },
+  {
+    "platform": "Instagram",
+    "ikon": "instagram",
+    "url": "https://www.instagram.com/sudutpandaan",
+    "caption": "Kuliner malam: lesehan ayam goreng yang jadi langganan pelintas jalur Pandaan.",
+    "gambar": "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=1000&h=625&q=65",
+    "tanggal": "2026-10-14T19:30:00+07:00",
+    "jenis": "Reels",
+    "alt": "Ilustrasi hidangan ayam goreng dengan nasi dan sambal di atas daun (foto ilustrasi)",
+    "kredit": "Foto: Kevin kevin / Unsplash"
+  },
+  {
+    "platform": "Threads",
+    "ikon": "threads",
+    "url": "https://www.threads.com/@sudutpandaan",
+    "caption": "Tanya warga: titik rawan genangan di Pandaan menurut kalian di mana saja?",
+    "gambar": "https://images.unsplash.com/photo-1708623901412-869477ea78fb?auto=format&fit=crop&w=1000&h=625&q=65",
+    "tanggal": "2026-10-14T17:00:00+07:00",
+    "jenis": "Diskusi",
+    "alt": "Ilustrasi hamparan sawah dan rumah warga di kawasan pedesaan (foto ilustrasi)",
+    "kredit": "Foto: Tegar Rynaldi / Unsplash"
+  },
+  {
+    "platform": "Instagram",
+    "ikon": "instagram",
+    "url": "https://www.instagram.com/sudutpandaan",
+    "caption": "Di balik kemasan: cerita kripik tempe rumahan dari Petungasri.",
+    "gambar": "assets/img/foto/umkm-tempe-800.webp",
+    "tanggal": "2026-10-12T18:15:00+07:00",
+    "jenis": "Karusel",
+    "kredit": "Foto: dokumentasi contoh Sudut Pandaan"
+  },
+  {
+    "platform": "Instagram",
+    "ikon": "instagram",
+    "url": "https://www.instagram.com/sudutpandaan",
+    "caption": "Sore di Candra Wilwatikta: panggung besar, taman luas, dan cerita Majapahit.",
+    "gambar": "https://images.unsplash.com/photo-1709094979090-bc35418ab53b?auto=format&fit=crop&w=1000&h=625&q=65",
+    "tanggal": "2026-10-12T06:30:00+07:00",
+    "jenis": "Reels",
+    "alt": "Ilustrasi penari berbusana tradisional di atas panggung terbuka (foto ilustrasi)",
+    "kredit": "Foto: Muhammad Adin Samudro / Unsplash"
+  }
+]
